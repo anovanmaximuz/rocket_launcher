@@ -10,6 +10,7 @@ import com.raywenderlich.rocketlauncher.R
 abstract class BaseAnimationActivity : AppCompatActivity() {
   protected lateinit var rocket: View
   protected lateinit var doge: View
+  protected lateinit var ic_roulette: View
   protected lateinit var frameLayout: View
   protected var screenHeight = 0f
 
@@ -21,6 +22,7 @@ abstract class BaseAnimationActivity : AppCompatActivity() {
     // 2
     rocket = findViewById(R.id.rocket)
     doge = findViewById(R.id.doge)
+    ic_roulette = findViewById(R.id.ic_roulette)
     frameLayout = findViewById(R.id.container)
 
     // 3
